@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "sass src/styles/main.scss build/main.css --watch",
+    "dev": "parcel src/index.html src/styles/main.scss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +12,9 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
-    "sass": "^1.83.4"
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sass": "^1.83.4",
+    "sharp": "^0.33.5"
   }
 }
