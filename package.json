@@ -1,9 +1,9 @@
 {
   "name": "lp-mentoria",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.13.3",
     "@parcel/transformer-sass": "^2.13.3",
     "parcel": "^2.13.3",
     "sass": "^1.83.4",
